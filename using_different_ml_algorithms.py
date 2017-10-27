@@ -219,5 +219,3 @@ y_pred = clf_svc.predict(X_test)
 print(accuracy_score(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
-
-# print("The prediction of the presence of Breast Cancer has been done and accuracy of the presence was ",  y_pred)
